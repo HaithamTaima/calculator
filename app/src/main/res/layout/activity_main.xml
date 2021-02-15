@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:padding="12dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/calc_main_tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textColor="#FF00"
+        android:text="0" />
+
+
+    <EditText
+
+        android:id="@+id/calc_main_et_funm"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="50dp"
+        android:hint="Entr the ferst unm"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/calc_main_et_sunm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Entr the second unm"
+        android:padding="12dp"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:id="@+id/calc_main_bnt_sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:padding="15dp"
+        android:text="sum" />
+
+
+</LinearLayout>
